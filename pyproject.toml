@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-guardrail"
+version = "0.1.0"
+description = "Drop-in, zero-dependency spending & forbidden-action guardrail for solo/indie AI agent builders."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [{ name = "Aura Labs" }]
+keywords = ["ai-agent", "guardrail", "spending-limit", "budget", "safety"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/rxn9ne/agent-guardrail"
+Issues = "https://github.com/rxn9ne/agent-guardrail/issues"
