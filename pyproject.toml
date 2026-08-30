@@ -20,6 +20,9 @@ classifiers = [
 ]
 dependencies = []
 
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
 [project.urls]
 Homepage = "https://github.com/rxn9ne/agent-guardrail"
 Issues = "https://github.com/rxn9ne/agent-guardrail/issues"
